@@ -1,0 +1,36 @@
+{
+  "name": "phonebook-web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devserve": "webpack-dev-server -d --config webpack.config.js --content-base public/ --progress --colors --host 0.0.0.0 --port 8080",
+    "devbuild": "webpack -d --config webpack.config.js --profile --progress --colors"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "babel": "^6.3.26",
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "flux": "^2.1.1",
+    "history": "^1.17.0",
+    "jade": "~1.11.0",
+    "keymirror": "^0.1.1",
+    "morgan": "~1.6.1",
+    "react": "^0.14.6",
+    "react-addons-css-transition-group": "^0.14.7",
+    "react-dom": "^0.14.6",
+    "react-router": "^1.0.3",
+    "reqwest": "^2.0.5",
+    "serve-favicon": "~2.3.0",
+    "xhr2": "^0.1.3"
+  }
+}
