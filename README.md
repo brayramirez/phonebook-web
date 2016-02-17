@@ -7,7 +7,7 @@
 
 ## Guide
 1. Generate express app
-  * `express [my_app]
+  * `express [my_app]`
   
 1. Copy the following files/directories from Rails App to our new Express App
   * Client directory (https://github.com/brayramirez/phonebook/tree/master/client)
@@ -82,8 +82,8 @@
   1. Rails API
     * run in any port except `3000` or `8080`
   1. Webpack-dev-server
-    * npm run devserve
+    * `npm run devserve`
     * this will be running in port `8080`
   1. ExpressJS
-    * DEBUG=:* npm start
+    * `DEBUG=:[my_app]* npm start`
     * this will be running in port `3000`
